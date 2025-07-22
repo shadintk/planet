@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌌 Planet Data | Muhammed Shadin TK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Ubuntu&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #00ffe5;
+      text-shadow: 0 0 10px #00ffe5;
+      border-bottom: 3px dashed #00ffe5;
+      padding-bottom: 10px;
+    }
+
+    table {
+      width: 90%;
+      max-width: 1000px;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 18px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    th {
+      background-color: rgba(0, 255, 255, 0.2);
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    tr:hover {
+      background-color: rgba(0, 255, 255, 0.1);
+      transition: 0.3s;
+    }
+
+    caption {
+      caption-side: bottom;
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #cccccc;
+    }
+
+    @media (max-width: 768px) {
+      table, th, td {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🪐 Shadin's Planet Data Table</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Planet</th>
+        <th>Diameter (km)</th>
+        <th>Distance from Sun (million km)</th>
+        <th>Moons</th>
+        <th>Has Rings?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mercury</td>
+        <td>4,879</td>
+        <td>58</td>
+        <td>0</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Venus</td>
+        <td>12,104</td>
+        <td>108</td>
+        <td>0</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Earth 🌍</td>
+        <td>12,742</td>
+        <td>150</td>
+        <td>1</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Mars</td>
+        <td>6,779</td>
+        <td>228</td>
+        <td>2</td>
+        <td>❌</td>
+      </tr>
+      <tr>
+        <td>Jupiter</td>
+        <td>139,820</td>
+        <td>778</td>
+        <td>95</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Saturn</td>
+        <td>116,460</td>
+        <td>1,429</td>
+        <td>145</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Uranus</td>
+        <td>50,724</td>
+        <td>2,871</td>
+        <td>27</td>
+        <td>✅</td>
+      </tr>
+      <tr>
+        <td>Neptune</td>
+        <td>49,244</td>
+        <td>4,498</td>
+        <td>14</td>
+        <td>✅</td>
+      </tr>
+    </tbody>
+    <caption>📊 Data Source: NASA Planetary Factsheet • Created by Muhammed Shadin TK</caption>
+  </table>
+
+</body>
+</html>
